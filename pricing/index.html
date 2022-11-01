@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MagFit</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav class="flex space-between pX-128 pY-16" id="nav">
+		<a href="/">
+			<div class="flex gap-8">
+				<img src="/images/MagFit-Logo.png" alt="MagFit" width="50" height="70">
+			</div>
+		</a>
+
+		<div class="flex gap-32">
+           
+            <a href="/mobileApp/index.html"> Mobile App</a>
+      
+			<a href="/owners/index.html">Owners</a>
+		
+			<a href="/testimonies/index.html">Testimonies</a>
+
+            <a href="/community/index.html">Community</a>
+		</div>
+
+		<div class="flex gap-16">
+			<div class="flex gap-16 buttons">
+				<a href="/pricing" class="button secondary small">View pricing</a>
+	
+				<a href="https://dashboard.gomagfit.com/login" class="button small">Get started</a>
+			</div>
+
+			<a class="button secondary small hamburger menu-icon-open" onclick="nav();" id="menu-icon">
+		<ion-icon name="menu-outline"></ion-icon>
+			</a>
+
+			<a class="button secondary small hamburger" onclick="nav();" id="close-icon">
+			<ion-icon name="close-outline"></ion-icon>
+			</a>
+		</div>
+	</nav>
+
+	<section class="pricing-hero center col gap-32">
+		<div class="flex col gap-16 center">
+			<h1>Find the perfect plan for your gym.</h1>
+
+			<p>Choose what division your gym belongs in below</p>
+		</div>
+
+	</section>
+
+	<section class="pricing">
+		<div class="flex row center gap-16">
+			<div class="container bounce flex col center gap-32 p-32" id="standard">
+				<div class="flex col gap-8 left">
+					<h3>Scaled</h3>
+		
+					<p>For gyms just getting started</p>
+				</div>
+		
+					<div class="flex col gap-16 left">
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+		
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+		
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+					</div>
+		
+					<div class="flex left gap-8">
+						<div class="container tiny flex center p-4 highest">
+							<ion-icon name="checkmark-outline"></ion-icon>
+						</div>
+	
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+	
+					<div class="flex left gap-8">
+						<div class="container tiny flex center p-4 highest">
+							<ion-icon name="checkmark-outline"></ion-icon>
+						</div>
+	
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+				</div>
+	
+				<div class="flex col center gap-8">
+					<div class="flex flex-end">
+						<h2>Free</h2>
+					</div>
+				</div>
+	
+				<a href="https://dashboard.gomagfit.com/login" class="button secondary">Get started for free</a>
+			</div>
+	
+			<div class="container bounce flex col center gap-32 p-32 accent" id="pro">
+				<div class="flex col gap-8 left">
+					<h3>Elite</h3>
+		
+					<p>* Billed annually, get 3 months FREE</p>
+				</div>
+		
+					<div class="flex col gap-16 left">
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest accent">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+		
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest accent">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+		
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest accent">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+					</div>
+		
+					<div class="flex left gap-8">
+						<div class="container tiny flex center p-4 highest accent">
+							<ion-icon name="checkmark-outline"></ion-icon>
+						</div>
+	
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+	
+					<div class="flex left gap-8">
+						<div class="container tiny flex center p-4 highest accent">
+							<ion-icon name="checkmark-outline"></ion-icon>
+						</div>
+	
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+				</div>
+	
+				<div class="flex col center gap-8">
+					<div class="flex flex-end">
+						<p>$</p>
+						<h2>11.25</h2>
+						<p>/mo*</p>
+					</div>
+				</div>
+	
+				<a href="https://dashboard.gomagfit.com/login" class="button">Let's fckin go</a>
+			</div>
+	
+			<div class="container bounce flex col center gap-32 p-32" id="company">
+				<div class="flex col gap-8 left">
+					<h3>RX</h3>
+		
+					<p>For gyms looking to drive growth</p>
+				</div>
+		
+					<div class="flex col gap-16 left">
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+		
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+						</div>
+		
+						<div class="flex left gap-8">
+							<div class="container tiny flex center p-4 highest">
+								<ion-icon name="checkmark-outline"></ion-icon>
+							</div>
+		
+							<p>Lorem ipsum dolor sit amet</p>
+					</div>
+		
+					<div class="flex left gap-8">
+						<div class="container tiny flex center p-4 highest">
+							<ion-icon name="checkmark-outline"></ion-icon>
+						</div>
+	
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+	
+					<div class="flex left gap-8">
+						<div class="container tiny flex center p-4 highest">
+							<ion-icon name="checkmark-outline"></ion-icon>
+						</div>
+	
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+				</div>
+	
+				<div class="flex col center gap-8">
+					<div class="flex flex-end">
+						<p>$</p>
+						<h2>15</h2>
+						<p>/mo</p>
+					</div>
+				</div>
+	
+				<a href="https://dashboard.gomagfit.com/login" class="button secondary">Get started</a>
+			</div>
+		</div>
+	</section>
+	
+	<section class="cta center gap-32">
+		<div class="flex col center gap-16">		
+			<h2>Grow your community with MagFit. </h2>
+
+			<p>Take control over how your gym is presented online with MagFit.</p>
+		</div>
+
+		<a href="https://dashboard.gomagfit.com/login" class="button">Get started for free</a>
+	</section>
+
+<footer class="flex center"> 
+		<div class="flex gap-64 flex-start space-between wrap">
+			<div class="flex col space-between left gap-32">
+				<div class="flex col gap-16 left">
+					<a href="https://apps.apple.com/ca/app/magfit/id1588654582">
+						<div class="flex row gap-16 left center">
+				<img src="/images/Download.png" alt="MagFit" width="220" height="70">
+						</div>			
+					</a>
+
+					<p>Find your community - Explore and conquer the endless crossfit options near you with the MagFit app.</p>
+				</div>
+
+				<div class="flex gap-32">
+					<a href="https://www.instagram.com/magfitapp/">
+						<ion-icon name="logo-instagram"></ion-icon>
+					</a>
+
+					<a href="https://apps.apple.com/ca/app/magfit/id1588654582">
+						<ion-icon name="logo-apple"></ion-icon>
+					</a>
+
+					<a href="https://twitter.com/magfitapp">
+						<ion-icon name="logo-twitter"></ion-icon>
+					</a>
+
+					<a href="https://www.youtube.com/channel/UCrs6j7xm0wZYCATQj2box3Q">
+						<ion-icon name="logo-youtube"></ion-icon>
+					</a>
+				</div>
+			</div>
+
+			<div class="flex col left gap-16">
+				<h4>Pricing</h4>
+
+				<div class="flex col left gap-8">
+					<a href="/pricing">Free</a>
+
+					<a href="/pricing">Standard</a>
+
+					<a href="/pricing">Pro</a>
+				</div>
+			</div>
+
+			<div class="flex col left gap-32">
+				<div class="flex col left gap-16">
+					<h4>Resources</h4>
+	
+					<div class="flex col left gap-8">
+						<a href="https://www.notion.so/magfit/Terms-Conditions-c1b6f3fd2ee54a089c1d412a7e69c302">Terms and Conditions</a>
+	
+						<a href="https://www.notion.so/magfit/Privacy-Policy-d5e5d8b9c2814c3c82127e9ca1585b4d">Privacy Policy</a>
+
+						<a href="https://www.notion.so/magfit/c5f52eaee0f14b03b861f77654677bd7?v=5632886738c64d00a75fbfaaa6094008">FAQs</a>
+					</div>
+				</div>
+
+				<div class="flex col left gap-16">
+					<h4>Pages</h4>
+	
+					<div class="flex col left gap-8">
+						<a href="/mobileApp/index.html">Mobile App</a>
+						
+						<a href="/owners/index.html">Owners</a>
+	
+						<a href="/testimonies/index.html">Testimonials</a>
+	
+						<a href="mailto:info@gomagfit.com">Contact</a>
+						
+						<a href="/community/index.html">Community</a>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+  <script src="../script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
