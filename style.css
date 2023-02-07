@@ -1051,6 +1051,13 @@ footer .flex.gap-32 ion-icon {
 		height: 45px;
 	}
 
+	.image.landing{
+		overflow: auto;
+		white-space: nowrap;
+		background: transparent;
+		height: 600px;
+	  }
+	  
 	nav {
 		padding: 16px 32px !important;
     width: calc(100% - 64px);
