@@ -1513,11 +1513,11 @@ ol, li {
   }
   .text-overlay h2{
 	padding-top: 250px;
-	font-size: 36px;
+	font-size: 23px;
   }
   .text-overlay h1{
-	padding-bottom: 200px;
-	font-size: 33px;
+	padding-bottom: 170px;
+	font-size: 23px;
   }
   .feature {
     display: flex;
@@ -1567,6 +1567,9 @@ ol, li {
   .container1 {
 	max-width: 100%;
 
+}
+.carousel_button1{
+	font-size: 12px;
 }
 
   
