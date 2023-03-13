@@ -79,10 +79,10 @@ function renderMarkers() {
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: {
-      lat: 37.7749,
-      lng: -122.4194
+      lat: 41.291384,
+      lng: -96.171497
     },
-    zoom: 8,
+    zoom: 5,
     mapId: "a4aeaf34cd1e581a",
   });
   renderMarkers();
